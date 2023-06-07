@@ -1,0 +1,16 @@
+{
+  "name": "date-service",
+  "version": "1.0.0",
+  "description": "Node.js REST web service for calculating the difference in days between two dates",
+  "main": "dateService.js",
+  "scripts": {
+    "start": "node dateService.js"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "luxon": "^2.0.2",
+    "body-parser": "^1.19.0"
+  }
+}
